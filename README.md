@@ -1,4 +1,4 @@
-#My personal site 
-##Still in progress
+#My personal site##
+##Still in progress##
 
 http://luisv.me
