@@ -1,0 +1,35 @@
+Explaning Deque
+
+  A deque object has: 
+    
+    fGuard - an element right before the first interior element (if any).
+    rGuard - and element right after the last interior element (if any).
+    *the arrow pointers are the address of the respective node.
+    //Empty deque
+    
+    NULL <-- fGuard <--> rGuard --> NULL
+   
+      + fGuard.prev is NULL
+      + rGuard.next is NULL
+      + if empty fGuard.next and rGuard.prev point to rGuard and fGuard
+        respectively.
+      + fGuard.prev can be done, but gives you an error, thus you can't do
+        anything else.
+
+    //Nonempty deque
+    NULL <-- fGuard <--> element1 <--> element2 <--> rGuard -> NULL
+
+    fGuard.next is 1 and you can go back and forth.
+    rGuard.prev is 2 and you can go back and forth.
+
+    pQ* temp --> temp is a pointer
+
+    pQ->fGuard is an actual struct so,
+      &(pQ->fGuard) is the address
+
+    Removing the first element
+      before: NULL<--fGuard<-->1<-->2<-->rGuard-->NULL
+      after: NULL<--fGuard<-->2<-->rGuard-->NULL
+
+
+
