@@ -19,29 +19,29 @@ struggles in our server.
 #Quick run through for my team
 
 1. To get a copy of the site. 
-    *git clone git@hackware.io:site.git
+      - git clone git@hackware.io:site.git
 2. Edit whatever you want from that copy
 3. Check if something has been changed in the copy you cloned to your local
    machine.
-    *git status
+      - git status
 4. If you edited/add something in that folder you should see the files. Thus,
    you add and commit in order to push the changes.
-    *git add .  (which add all files changed)
-    *git commit -m 'comment of what changed in present tense'
+      - git add .  (which add all files changed)
+      - git commit -m 'comment of what changed in present tense'
 5. We need to check if you have the correct remote server where you want to
    push your changes into.
-    *git remote show
-      -This will show all the remote servers you have in this folder
-    *git remote show origin
-      - origin is usually what you have if you have cloned a repo
-      - this command should tell you the link to where you are going to push if
-        you use origin.
+      - git remote show
+        - This will show all the remote servers you have in this folder
+      - git remote show origin
+        - origin is usually what you have if you have cloned a repo
+        - this command should tell you the link to where you are going to push if
+          you use origin.
 6. We PUSH, PUSH
-    *git push origin master
-      - master (it can be named anything) but it is a branch that you want to
-        push to the remote server named origin.
+      - git push origin master
+        - master (it can be named anything) but it is a branch that you want to
+          push to the remote server named origin.
 7. Check what you pushed.
-    *git log
+      - git log
 
 
 [hackware-site]: https://hackware.io
