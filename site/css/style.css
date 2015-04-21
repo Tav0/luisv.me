@@ -1,5 +1,10 @@
 html {
-  background-color: rgb(238,238,238);
+  background-color: #EEF0F2;
+  /*rgb(238,238,238)*/
+}
+
+body{
+  margin: 50px;
 }
 
 a.name:link {
@@ -12,28 +17,6 @@ a.name:hover {
   text-decoration: none;
 }
 
-[class*='col-'] {
-  float: left;
-}
-
-.col-2-3 {
-  position: absolute;
-  width: 36.66%;
-  right: .1%;
-  top: 250px;
-  height: 100px;
-}
-
-.col-1-3 {
-  width: 53.33%;
-}
-
-.grid:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .main{
   background-color: rgba(184,211,209,0.9);
 }
@@ -43,18 +26,10 @@ a.name:hover {
 }
 
 .centered_measure {
-  width:85%;
-  max-width:50em;
+  width:90%;
   margin:0 auto;
-  padding:0.1px;
-  font-size:18px;
-}
-
-.centered_measure.with_bottom_margin{
-  margin-bottom:5em;
-}
-.centered_measure.with_top_margin{
-  margin-top:13em;
+  padding:0.5em;
+  font-size:100%;
 }
 
 #social ul{
@@ -70,3 +45,28 @@ a.name:hover {
   padding: .1em .5em;
 }
 
+#projects a {
+  text-decoration: none;
+  color: #873955;
+  font-size: 1.5em;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+#intro p {
+  font-family: monospace;
+  font-size: 100%;
+}
+
+#projects a:hover{
+  color: black;
+}
+
+div#logo {
+  text-align: right;
+  margin-right: 0.5em;
+}
+
+img#logo {
+  height: 5em;
+}
