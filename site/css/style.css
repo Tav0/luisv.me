@@ -7,16 +7,6 @@ body{
   margin: 50px;
 }
 
-a.name:link {
-  color: black;
-  text-decoration: none;
-}
-
-a.name:hover {
-  color: #774773;
-  text-decoration: none;
-}
-
 .main{
   background-color: rgba(184,211,209,0.9);
 }
@@ -69,4 +59,10 @@ div#logo {
 
 img#logo {
   height: 5em;
+}
+
+span#pronunce{
+  color: #A52A2A;
+  font-size: 15px;
+  font-weight: lighter;
 }
