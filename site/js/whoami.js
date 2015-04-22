@@ -15,9 +15,9 @@ function startTimer() {
 }
 
 var images = [], x = -1;
-images[0] = "img/dancer_whoami.png";
-images[1] = "img/designer_whoami.png";
-images[2] = "img/dev_whoami.png";
-images[3] = "img/maker_whoami.png";
-images[4] = "img/human_whoami.png";
+images[0] = "img/whoami_dancer.svg";
+images[1] = "img/whoami_designer.svg";
+images[2] = "img/whoami_dev.svg";
+images[3] = "img/whoami_maker.svg";
+images[4] = "img/whoami_human.svg";
 
