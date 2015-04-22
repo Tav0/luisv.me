@@ -4,7 +4,8 @@ html {
 }
 
 body{
-  margin: 50px;
+  margin: 20px;
+  padding: 10px;
 }
 
 .main{
@@ -43,7 +44,11 @@ body{
   font-weight: bolder;
 }
 
-#intro p {
+#projects p {
+  font-family: monospace;
+}
+
+#header p {
   font-family: monospace;
   font-size: 100%;
 }
@@ -65,4 +70,22 @@ span#pronunce{
   color: #A52A2A;
   font-size: 15px;
   font-weight: lighter;
+}
+
+#hi {
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#intro {
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: bolder;
 }
