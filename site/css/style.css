@@ -3,89 +3,135 @@ html {
   /*rgb(238,238,238)*/
 }
 
-body{
-  margin: 20px;
-  padding: 10px;
+body {
+  /* Location of the image */
+  /* background: blanchedalmond; */
+
+  /* Image is centered vertically and horizontally at all times */
+  /* background-position: center center; */
+
+  /* Image doesn't repeat */
+  /* background-repeat: no-repeat; */
+
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+   *    *      the content height is greater than the image height */
+  /* background-attachment: fixed; */
+
+  /* This is what makes the background image rescale based on its
+   *    * container's size */
+  /* background-size: cover; */
+
+  /* Pick a solid background color that will be displayed while the
+   *    * background image is loading */
+  background-color: rgba(184, 211, 209, 0.9);
+
+  /* SHORTHAND CSS NOTATION
+   *    *    * background: url(background-photo.jpg) center center cover
+   *       *    no-repeat fixed;
+   *          *       */
+  box-shadow: 0 4px 7px -2px rgba(0, 0, 0, 0.52);
+  height: initial;
+  width: initial;
+  margin-top: 2vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  margin-bottom: 2vh;
 }
 
-.main{
-  background-color: rgba(184,211,209,0.9);
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    background-color: rgba(184, 211, 209, 0.9);
+  }
 }
 
-.has_shadow{
-  box-shadow:0 4px 7px -2px rgba(0,0,0,0.52);
-}
+/* The file size of this background image is 93%
+ * smaller to improve page load speed on mobile
+ * internet connections
+ * body{
+ * margin: 20px;
+ * padding: 10px;
+ * }
+ */
 
-.centered_measure {
-  width:90%;
-  margin:0 auto;
-  padding:0.5em;
-  font-size:100%;
-}
+  /*.main{
+    background-color: rgba(184,211,209,0.9);
+  }
 
-#social ul{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: left;
-}
-#social ul li { display: inline; }
+  .has_shadow{
+    box-shadow:0 4px 7px -2px rgba(0,0,0,0.52);
+  }*/
 
-#social ul li a {
-  text-decoration: none;
-  padding: .1em .5em;
-}
+  .centered_measure {
+    width:90%;
+    margin:0 auto;
+    padding:0.5em;
+    font-size:100%;
+  }
 
-#projects a {
-  text-decoration: none;
-  color: #873955;
-  font-size: 1.5em;
-  font-family: monospace;
-  font-weight: bolder;
-}
+  #social ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+  }
+  #social ul li { display: inline; }
 
-#projects p {
-  font-family: monospace;
-}
+  #social ul li a {
+    text-decoration: none;
+    padding: .1em .5em;
+  }
 
-#header p {
-  font-family: monospace;
-  font-size: 100%;
-}
+  #projects a {
+    text-decoration: none;
+    color: #873955;
+    font-size: 1.5em;
+    font-family: monospace;
+    font-weight: bolder;
+  }
 
-#projects a:hover{
-  color: black;
-}
+  #projects p {
+    font-family: monospace;
+  }
 
-div#logo {
-  text-align: right;
-  margin-right: 0.5em;
-}
+  #header p {
+    font-family: monospace;
+    font-size: 100%;
+  }
 
-img#logo {
-  height: 3em;
-}
+  #projects a:hover{
+    color: black;
+  }
 
-span#pronunce{
-  color: #A52A2A;
-  font-size: 15px;
-  font-weight: lighter;
-}
+  div#logo {
+    text-align: right;
+    margin-right: 0.5em;
+  }
 
-#hi {
-  font-family: monospace;
-  font-size: 25px;
-  font-weight: bolder;
-}
+  img#logo {
+    height: 3em;
+  }
 
-#intro {
-  font-family: monospace;
-  font-size: 25px;
-  font-weight: bolder;
-}
+  span#pronunce{
+    color: #A52A2A;
+    font-size: 15px;
+    font-weight: lighter;
+  }
 
-h2 {
-  font-family: monospace;
-  font-size: 25px;
-  font-weight: bolder;
-}
+  #hi {
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  #intro {
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bolder;
+  }
+
+  h2 {
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bolder;
+  }
